@@ -1,0 +1,35 @@
+.appHeader {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  color: #ffffff;
+  background-color: #090953;
+  height: 38px;
+}
+.logo {
+  margin: 0 auto;
+  margin-top: 5px;
+  transform: translateX(120px);
+}
+.logo span {
+  font-size: 25px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  float: right;
+  margin-right: 1px;
+}
+
+.btn-login {
+  padding: 10px 20px;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  background-color: #090953;
+}
+.person {
+  width: 25px;
+  height: 27px;
+  margin-top: 6px;
+}

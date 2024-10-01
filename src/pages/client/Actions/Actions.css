@@ -1,0 +1,42 @@
+.card {
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 200px;
+  position: relative;
+  border: 2px solid #090953;
+}
+.card:hover {
+  border-color: #e0e0e0;
+}
+.containerActions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  max-width: 100%;
+  width: 745px;
+  margin: 0 auto;
+}
+.banner {
+  width: 100%;
+  display: flex;
+}
+.bannerBloc {
+  margin: 1px;
+  height: 215px;
+}
+.brend {
+  width: 150px;
+  padding: 0px;
+}
+.bannerText {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.bannerTextL {
+  margin-left: 5px;
+  font-size: 15px;
+  font-style: italic;
+}

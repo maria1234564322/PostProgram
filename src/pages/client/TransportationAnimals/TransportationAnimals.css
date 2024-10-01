@@ -1,0 +1,167 @@
+.transportation-container {
+  background: radial-gradient(circle, #ffffff 0%, #cde0ea 50%, #ffffff 100%);
+  color: #090953;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.backgroundTransportationAnimals {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  font-size: 18px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.list-number {
+  background-color: #bac5e4a1;
+  color: #0d1c32;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.allowed-animals-container {
+  background-color: #090953;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.allowed-animals-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.allowed-animals-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.allowed-animals-container ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.check-icon {
+  background-color: #bac5e4a1;
+  color: white;
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+.faq-question {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 15px 25px;
+  cursor: pointer;
+  border: 1px solid rgb(248, 249, 250);
+  border-radius: 8px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+}
+.faq-answer {
+  margin-left: 20px;
+}
+
+.contact-form-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.contact-consultant,
+.order-form {
+  width: 45%;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.consultant-info {
+  text-align: center;
+}
+
+.consultant {
+  font-size: 20px;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-iconsImg {
+  width: 60px;
+  object-fit: contain;
+}
+
+.order-form input,
+.order-form textarea {
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.order-form textarea {
+  height: 100px;
+}
+
+.submit-btn {
+  background-color: #bac5e4a1;
+  color: white;
+  border: none;
+  padding: 15px;
+  width: 95%;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  background-color: #6889efa1;
+}

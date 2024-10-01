@@ -1,0 +1,25 @@
+.containerDelivery {
+  width: 210mm;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  box-sizing: border-box;
+}
+.containerDeliveryDepartment {
+  display: flex;
+  justify-content: space-around;
+}
+
+.blockDeliveryDepartment {
+  text-align: center;
+  padding: 20px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 30%;
+}
+.department {
+  width: 150px;
+  height: 150px;
+}

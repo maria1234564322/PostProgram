@@ -1,0 +1,104 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.backgroundExit {
+  display: flex;
+  justify-content: center;
+
+  background-color: #edf9ff;
+  height: 100vh;
+}
+
+.containerExit {
+  width: 210mm; /* Ширина формату A4 */
+  height: 350px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.forgotPassword {
+  font-size: 15px;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.forgotPassword:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.conteinetButton {
+  text-align: center;
+}
+
+.returnExit {
+  color: blue;
+  text-align: center;
+}
+
+.returnRegistration {
+  color: #090953;
+  font-size: 15px;
+  text-decoration: underline;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  max-width: 500px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.email {
+  margin-left: 10px;
+  border-radius: #090953;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border: 3px solid #090953;
+}
+.buttonEmail {
+  height: 30px;
+  margin-left: 10px;
+  border-radius: #090953;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border: 3px solid #090953;
+  color: #090953;
+  border-radius: 5px;
+}
