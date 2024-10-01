@@ -1,4 +1,4 @@
-.card {
+.card-actions {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -7,10 +7,10 @@
   position: relative;
   border: 2px solid #090953;
 }
-.card:hover {
+.card-actions:hover {
   border-color: #e0e0e0;
 }
-.containerActions {
+.container-actions {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
@@ -18,24 +18,24 @@
   width: 745px;
   margin: 0 auto;
 }
-.banner {
+.banner-actions {
   width: 100%;
   display: flex;
 }
-.bannerBloc {
+.bannerBloc-actions {
   margin: 1px;
   height: 215px;
 }
-.brend {
+.brend-actions {
   width: 150px;
   padding: 0px;
 }
-.bannerText {
+.bannerText-actions {
   font-size: 20px;
   font-weight: bold;
   margin-top: 10px;
 }
-.bannerTextL {
+.bannerTextL-actions {
   margin-left: 5px;
   font-size: 15px;
   font-style: italic;

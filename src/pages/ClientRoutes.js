@@ -3,7 +3,7 @@ import Registration from './client/Registration/Registration';
 import Exit from './client/Exit/Exit';
 import Actions from './client/Actions/Actions';
 import DeliveryAcrossUkraine from './client/DeliveryAcrossUkraine/DeliveryAcrossUkraine';
-import UserOffice from './client/UserOffice/UserOffice';
+import UserHomePage from './client/UserHomePage/UserHomePage';
 import TransportationAnimals from './client/TransportationAnimals/TransportationAnimals';
 import CreateShipment from './client/CreateShipment/CreateShipment';
 import CalculationCreateShipment from './client/CalculationCreateShipment/CalculationCreateShipment';
@@ -25,9 +25,9 @@ const ClientRoutes = {
     component: <Exit />,
   },
   UserOffice: {
-    name: 'UserOffice',
-    pattern: 'userOffice',
-    component: <UserOffice />,
+    name: 'UserhomePage',
+    pattern: 'user-home',
+    component: <UserHomePage />,
   },
   CreateShipment: {
     name: 'CreateShipment',

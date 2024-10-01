@@ -46,7 +46,6 @@ const Registration = () => {
     const region = event.target.value;
     setFormData({ ...formData, region });
 
-    // Задаємо відповідні райони для обраної області
     switch (region) {
       case 'lviv':
         setDistricts([
@@ -66,7 +65,7 @@ const Registration = () => {
           { id: 'chernivetskyi', name: 'Чернівецький' },
         ]);
         break;
-      // Додайте інші області за аналогією
+
       default:
         setDistricts([]);
         break;

@@ -1,14 +1,8 @@
-import './UserOffice.css';
+import './UserHomePage.css';
 
-const UserOffice = () => {
+const UserHomePage = () => {
   return (
     <div>
-      <div className="appHeader">
-        <p className="logo">
-          <span style={{ fontWeight: 'bold' }}>Post</span>
-          <span style={{ fontStyle: 'italic' }}>Anim</span>
-        </p>
-      </div>
       <div className="background">
         <div className="containerUserOffice">
           <div className="blockserOffice">
@@ -37,4 +31,4 @@ const UserOffice = () => {
   );
 };
 
-export default UserOffice;
+export default UserHomePage;
