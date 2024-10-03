@@ -44,72 +44,63 @@ const Exit = () => {
   };
 
   return (
-    <div>
-      <div className="appHeader">
-        <p className="logo">
-          <span style={{ fontWeight: 'bold' }}>Post</span>
-          <span style={{ fontStyle: 'italic' }}>Anim</span>
-        </p>
-      </div>
-      <div className="backgroundExit">
-        <div className="containerExit">
-          <h1 className="registrationCaption">Вхід</h1>
+    <>
+      <div className="background-exit">
+        <div className="container-exit">
+          <h1>Вхід</h1>
 
-          <div className="form-group">
+          <div className="formGroup-exit">
             <label htmlFor="email">E-mail:</label>
             <input
               type="email"
-              className="inputRegistration"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
             />
           </div>
-          <div className="form-group">
+          <div className="formGroup-exit">
             <label htmlFor="password">Пароль:</label>
             <input
               type="password"
-              className="inputRegistration"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
             />
-            <p className="forgotPassword" onClick={openModal}>
+            <p className="forgotPassword-exit" onClick={openModal}>
               Забули пароль?
             </p>
           </div>
-          <div className="conteinetButton">
-            <button className="buttonRegistrationUp" onClick={handleLogin}>
+          <div className="conteinetButton-exit">
+            <button className="buttonUp-exit" onClick={handleLogin}>
               Увійти
             </button>
           </div>
-          <p className="returnRegistration">Повернутись на головну сторінку</p>
         </div>
       </div>
 
       {isModalOpen && (
-        <div className="modal">
-          <div className="modal-content">
-            <span className="close" onClick={closeModal}>
+        <div className="modal-exit">
+          <div className="modalContent-exit">
+            <span className="close-exit" onClick={closeModal}>
               &times;
             </span>
             <h2>Введіть вашу електронну пошту</h2>
             <input
               type="email"
               id="email"
-              className="email"
+              className="emailemail-exit"
               placeholder="Ваша електронна пошта"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
             />
-            <button onClick={submitEmail} className="buttonEmail">
+            <button onClick={submitEmail} className="buttonEmail-exit ">
               Підтвердити
             </button>
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 

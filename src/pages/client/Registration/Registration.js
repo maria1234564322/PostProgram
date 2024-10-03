@@ -91,36 +91,30 @@ const Registration = () => {
 
   return (
     <div>
-      <div className="appHeader">
-        <p className="logo">
-          <span style={{ fontWeight: 'bold' }}>Post</span>
-          <span style={{ fontStyle: 'italic' }}>Anim</span>
-        </p>
-      </div>
-      <div className="background">
-        <div className="containerRegistration">
-          <h1 className="registrationCaption">Реєстрація</h1>
+      <div className="background-registration">
+        <div className="container-registration">
+          <h1 className="caption-registration">Реєстрація</h1>
 
           <form onSubmit={handleFormSubmit}>
-            <div className="form-group">
+            <div className="formGroup-registration">
               <label htmlFor="email">E-mail:</label>
               <input
                 type="email"
                 id="email"
                 name="email"
-                className="inputRegistration"
+                className="input-registration"
                 value={formData.email}
                 onChange={handleInputChange}
                 required
               />
             </div>
-            <div className="form-group">
+            <div className="formGroup-registration">
               <label htmlFor="password">Пароль:</label>
               <input
                 type="password"
                 id="password"
                 name="password"
-                className="inputRegistration"
+                className="input-registration"
                 value={formData.password}
                 onChange={handleInputChange}
                 pattern="(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}"
@@ -131,13 +125,13 @@ const Registration = () => {
                 <span className="error-message">{passwordError}</span>
               )}
             </div>
-            <div className="form-group">
+            <div className="formGroup-registration">
               <label htmlFor="confirmPassword">Повторіть пароль:</label>
               <input
                 type="password"
                 id="confirmPassword"
                 name="confirmPassword"
-                className="inputRegistration"
+                className="input-registration"
                 value={formData.confirmPassword}
                 onChange={handleInputChange}
                 required
@@ -146,46 +140,46 @@ const Registration = () => {
                 <span className="error-message">{passwordError}</span>
               )}
             </div>
-            <div className="form-group">
+            <div className="formGroup-registration">
               <label htmlFor="surname">Прізвище:</label>
               <input
                 type="text"
                 id="surname"
                 name="surname"
-                className="inputRegistration"
+                className="input-registration"
                 value={formData.surname}
                 onChange={handleInputChange}
               />
             </div>
-            <div className="form-group">
+            <div className="formGroup-registration">
               <label htmlFor="name">Ім'я:</label>
               <input
                 type="text"
                 id="name"
                 name="name"
-                className="inputRegistration"
+                className="input-registration"
                 value={formData.name}
                 onChange={handleInputChange}
               />
             </div>
-            <div className="form-group">
+            <div className="formGroup-registration">
               <label htmlFor="middleName">По-батькові:</label>
               <input
                 type="text"
                 id="middleName"
                 name="middleName"
-                className="inputRegistration"
+                className="input-registration"
                 value={formData.middleName}
                 onChange={handleInputChange}
               />
             </div>
-            <div className="form-group">
+            <div className="formGroup-registration">
               <label htmlFor="phone">Телефон:</label>
               <input
                 type="tel"
                 id="phone"
                 name="phone"
-                className="inputRegistration"
+                className="input-registration"
                 value={formData.phone}
                 onChange={handleInputChange}
                 pattern="0\d{9}" // Валідація для 0 та 9 цифр
@@ -193,29 +187,29 @@ const Registration = () => {
                 required
               />
             </div>
-            <div className="form-group">
+            <div className="formGroup-registration">
               <label htmlFor="postalCode">Поштовий індекс:</label>
               <input
                 type="text"
                 id="postalCode"
                 name="postalCode"
-                className="inputRegistration"
+                className="input-registration"
                 value={formData.postalCode}
                 onChange={handleInputChange}
                 pattern="\d{5}" // Валідація для 5 цифр
                 title="Неправильний поштовий індекс"
                 required
               />
-              <button type="button" className="buttonRegistration">
+              <button type="button" className="button-registration">
                 Знайти індекс
               </button>
             </div>
-            <div className="form-group">
+            <div className="formGroup-registration">
               <label htmlFor="region">Область:</label>
               <select
                 id="region"
                 name="region"
-                className="inputRegistration"
+                className="input-registration"
                 value={formData.region}
                 onChange={handleRegionChange}
               >
@@ -243,12 +237,12 @@ const Registration = () => {
                 <option value="chernivtsi">Чернівецька</option>
               </select>
             </div>
-            <div className="form-group">
+            <div className="formGroup-registration">
               <label htmlFor="district">Район:</label>
               <select
                 id="district"
                 name="district"
-                className="inputRegistration"
+                className="input-registration"
                 value={formData.district}
                 onChange={handleInputChange}
               >
@@ -260,40 +254,40 @@ const Registration = () => {
                 ))}
               </select>
             </div>
-            <div className="form-group">
+            <div className="formGroup-registration">
               <label htmlFor="city">Населений пункт:</label>
               <input
                 type="text"
                 id="city"
                 name="city"
-                className="inputRegistration"
+                className="input-registration"
                 value={formData.city}
                 onChange={handleInputChange}
               />
             </div>
-            <div className="form-group">
+            <div className="formGroup-registration">
               <label htmlFor="street">Вулиця:</label>
               <input
                 type="text"
                 id="street"
                 name="street"
-                className="inputRegistration"
+                className="input-registration"
                 value={formData.street}
                 onChange={handleInputChange}
               />
             </div>
-            <div className="form-group">
+            <div className="formGroup-registration">
               <label htmlFor="house">Будинок:</label>
               <input
                 type="text"
                 id="house"
                 name="house"
-                className="inputRegistration"
+                className="input-registration"
                 value={formData.house}
                 onChange={handleInputChange}
               />
             </div>
-            <button type="submit" className="buttonRegistration">
+            <button type="submit" className="button-registration">
               Зареєструватися
             </button>
           </form>

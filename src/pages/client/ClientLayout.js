@@ -10,14 +10,14 @@ const ClientLayout = () => {
     <>
       <div>
         <div className="appHeader">
-          <p className="logo" onClick={() => navigate('/Home')}>
+          <p className="logo-clientLayout " onClick={() => navigate('/Home')}>
             <span style={{ fontWeight: 'bold' }}>Post</span>
             <span style={{ fontStyle: 'italic' }}>Anim</span>
           </p>
-          <div className="buttons">
-            <button className="btn-login">Вхід</button>
-            <img src={person} alt="person" className="person" />
-            <button className="btn-login">Реєстрація</button>
+          <div className="buttons-clientLayout ">
+            <button className="btnLogin-clientLayout ">Вхід</button>
+            <img src={person} alt="person" className="person-clientLayout " />
+            <button className="btnLogin-clientLayout ">Реєстрація</button>
           </div>
         </div>
         <Outlet />

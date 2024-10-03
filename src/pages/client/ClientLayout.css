@@ -6,29 +6,35 @@
   background-color: #090953;
   height: 38px;
 }
-.logo {
+.background {
+  display: flex;
+  justify-content: center;
+  background-color: #edf9ff;
+  height: 100vh;
+}
+.logo-clientLayout {
   margin: 0 auto;
   margin-top: 5px;
   transform: translateX(120px);
 }
-.logo span {
+.logo-clientLayout span {
   font-size: 25px;
 }
-.buttons {
+.buttons-clientLayout {
   display: flex;
   gap: 10px;
   float: right;
   margin-right: 1px;
 }
 
-.btn-login {
+.btnLogin-clientLayout {
   padding: 10px 20px;
   border: none;
   color: rgb(255, 255, 255);
   cursor: pointer;
   background-color: #090953;
 }
-.person {
+.person-clientLayout {
   width: 25px;
   height: 27px;
   margin-top: 6px;

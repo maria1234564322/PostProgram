@@ -14,51 +14,51 @@ const Home = () => {
   const navigate = useNavigate(); // Хук для навігації
 
   return (
-    <div className="container">
+    <>
       <nav>
-        <li className="blokUpper">
-          <a className="servicesUpper">ВІДСТЕЖИТИ ВІДПРАВЛЕННЯ</a>
-
-          <div className="search">
-            <input
-              type="text"
-              className="searchTerm"
-              placeholder="Відстежити замовлення"
-            ></input>
-            <button className="button-search">
-              <span>➔</span>
-            </button>
-          </div>
+        <li className="blokUpper-home">
+          <a className="servicesUpper-home">ВІДСТЕЖИТИ ВІДПРАВЛЕННЯ</a>
+          <input
+            type="text"
+            className="searchTerm-home"
+            placeholder="Відстежити замовлення"
+          ></input>
+          <button className="buttonSearch-home">
+            <span>➔</span>
+          </button>
         </li>
 
         {/* Перехід на сторінку створення відправлення */}
-        <li className="blokUpper" onClick={() => navigate('/CreateShipment')}>
-          <a className="servicesUpper">СТВОРИТИ ВІДПРАВЛЕННЯ</a>
-          <img src={boxImage} className="boxImg" />
+        <li
+          className="blokUpper-home"
+          onClick={() => navigate('/CreateShipment')}
+        >
+          <a className="servicesUpper-home">СТВОРИТИ ВІДПРАВЛЕННЯ</a>
+          <img src={boxImage} className="img-home" />
         </li>
 
         <li
-          className="blokUpper"
+          className="blokUpper-home"
           onClick={() => navigate('/CalculationCreateShipment')}
         >
-          <a className="servicesUpper">РОЗРАХУВАТИ ВАРТІСТЬ</a>
-          <img src={carc} className="boxImg" />
+          <a className="servicesUpper-home">РОЗРАХУВАТИ ВАРТІСТЬ</a>
+          <img src={carc} className="img-home" />
         </li>
       </nav>
 
       <main>
-        <p className="text-postalServices">Поштові послуги</p>
-        <section className="services-block">
-          <div className="service">
-            <a className="postalServicesBloc">
-              <img src={car} className="carImg" />
-              <h2 className="text-postalServices"> Доставка по Україні</h2>
-              <p className="text-postalServiceslitle">
+        <p className="textPostal-home">Поштові послуги</p>
+        <section className="servicesBlock-home">
+          <div className="service-home">
+            <a className="postalBloc-home">
+              <img src={car} className="carImg-home" />
+              <h2 className="textPostal-home"> Доставка по Україні</h2>
+              <p className="textPostalLitle-home ">
                 Замовляйте доставку у найвіддаленіші куточки України,
                 відправляйте й отримуйте посилки з усього світу і навпаки.
               </p>
               <button
-                className="learnMoreButton"
+                className="learnMoreButton-home"
                 onClick={() => navigate('/DeliveryAcrossUkraine')}
               >
                 {' '}
@@ -66,16 +66,16 @@ const Home = () => {
               </button>
             </a>
           </div>
-          <div className="service">
-            <a className="postalServicesBloc">
-              <img src={dog} className="carImg" />
-              <h2 className="text-postalServices"> Перевезення тварин</h2>
-              <p className="text-postalServiceslitle">
+          <div className="service-home">
+            <a className="postalBloc-home">
+              <img src={dog} className="carImg-home" />
+              <h2 className="textPostal-home"> Перевезення тварин</h2>
+              <p className="textPostalLitle-home ">
                 Перевезеня та допомога з документами. Забираємо та доставляємо
                 адресою.
               </p>
               <button
-                className="learnMoreButton"
+                className="learnMoreButton-home"
                 onClick={() => navigate('/TransportationAnimals ')}
               >
                 Дізнатися більше
@@ -83,16 +83,16 @@ const Home = () => {
             </a>
           </div>
 
-          <div className="service">
-            <a className="postalServicesBloc">
-              <img src={promotions} className="carImg" />
-              <h2 className="text-postalServices"> Акції та пророзиції</h2>
-              <p className="text-postalServiceslitle">
+          <div className="service-home">
+            <a className="postalBloc-home">
+              <img src={promotions} className="carImg-home" />
+              <h2 className="textPostal-home"> Акції та пророзиції</h2>
+              <p className="textPostalLitle-home ">
                 Переглядайте всі наші акції та пропозиції щодо доставки та
                 перевезення тварин!
               </p>
               <button
-                className="learnMoreButton"
+                className="learnMoreButton-home"
                 onClick={() => navigate('/Actions')}
               >
                 {' '}
@@ -102,20 +102,20 @@ const Home = () => {
           </div>
         </section>
 
-        <section className="search-block">
-          <h1 className="text-postalServices">Бажаєте зв'язатися з нами?</h1>
-          <div className="buttons-communication">
-            <button className="button-communication">Телефонуйте</button>
-            <button className="button-communication">Напишіть нам</button>
-            <button className="button-communication">
+        <section className="searchBlocking-home">
+          <h1 className="textPostal-home">Бажаєте зв'язатися з нами?</h1>
+          <div>
+            <button className="buttonCommunication-home">Телефонуйте</button>
+            <button className="buttonCommunication-home">Напишіть нам</button>
+            <button className="buttonCommunication-home">
               Завітайте у відділення
             </button>
           </div>
         </section>
 
-        <section className="proofs-block">
-          <h2 className="find-the-index">Знайти індекс</h2>
-          <p className="text-index">
+        <section className="proofs-home">
+          <h2 className="findIndex-home">Знайти індекс</h2>
+          <p>
             Поштовий індекс — це код із 5 цифр, який допомагає пришвидшити
             сортування та доставку відправлень. Поштовий індекс мають всі
             відділення пошти та всі населені пункти України.
@@ -123,34 +123,34 @@ const Home = () => {
           <div>
             <input
               type="text"
-              className="searchIndex"
+              className="searchIndex-home"
               placeholder="Введіть назву населеного пункту"
             ></input>
-            <button className="button-index">Знайти</button>
+            <button className="buttonIndex-home">Знайти</button>
           </div>
         </section>
       </main>
 
       <footer>
-        <div className="conteinerAbout">
-          <div className="blokabout">
-            <p className="servicesUpper">Політика конфіденційності</p>
-            <img src={preview} className="previewImg" />
+        <div className="conteinerAbout-home">
+          <div className="blokabout-home">
+            <p className="servicesUpper-home">Політика конфіденційності</p>
+            <img src={preview} className="previewImg-home" />
           </div>
-          <div className="blokabout">
-            <p className="servicesUpper">Ми в соціальних мережах</p>
-            <img src={socmer} className="socImg" />
+          <div className="blokabout-home">
+            <p className="servicesUpper-home">Ми в соціальних мережах</p>
+            <img src={socmer} className="socImg-home" />
           </div>
-          <div className="blokabout">
-            <p className="servicesUpper">Про нас</p>
-            <img src={about} className="previewImg" />
+          <div className="blokabout-home">
+            <p className="servicesUpper-home">Про нас</p>
+            <img src={about} className="previewImg-home" />
           </div>
         </div>
-        <div className="postAnim">
+        <div className="postAnim-home">
           <p>&nbsp;&nbsp;&copy; 2024 PostAnim</p>
         </div>
       </footer>
-    </div>
+    </>
   );
 };
 

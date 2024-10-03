@@ -4,12 +4,6 @@ body {
   padding: 0;
 }
 
-.container {
-  width: 100%;
-  margin: 0 auto;
-  background-color: inherit;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -28,14 +22,14 @@ nav li {
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
 }
 
-.blokUpper {
+.blokUpper-home {
   padding-top: 20px;
   color: #0909530d;
   font-weight: bold;
   background-color: #edf9ff;
 }
 
-.servicesUpper {
+.servicesUpper-home {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,52 +43,52 @@ main {
   padding: 20px;
 }
 
-.search-block {
+.searchBlocking-home {
   display: flex;
   margin-bottom: 20px;
   height: 130px;
 }
 
-.search-block input {
+.searchBlocking-home input {
   flex: 1;
   padding: 10px;
   border: 1px solid #ccc;
 }
 
-.search-block button {
+.searchBlocking-home button {
   padding: 10px 20px;
   color: #090953;
   border: none;
   cursor: pointer;
 }
 
-.services-block {
+.servicesBlock-home {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.service {
+.service-home {
   width: calc(33% - 20px);
   margin-bottom: 20px;
   text-align: center;
 }
 
-.service a {
+.service-home a {
   display: block;
   padding: 20px;
   border: 1px solid #ccc;
   text-decoration: none;
 }
-.blokUpper:hover {
+.blokUpper-home:hover {
   background-color: #bac5e4;
 }
 
-.service img {
+.service-home img {
   margin-bottom: 10px;
 }
 
-.proofs-block {
+.proofs-home {
   text-align: center;
   background-image: url('../../../images/city.jpg');
   background-size: cover;
@@ -107,7 +101,7 @@ main {
   transition: background-color 0.3s;
 }
 
-.searchTerm {
+.searchTerm-home {
   width: 80%;
   border: 3px solid #090953;
   margin-left: 10px;
@@ -117,10 +111,10 @@ main {
   color: #9dbfaf;
 }
 
-.searchTerm:focus {
+.searchTerm-home:focus {
   color: #6e6e90;
 }
-.button-search {
+.buttonSearch-home {
   width: 30px;
   border: 3px solid #090953;
   margin-top: 40px;
@@ -130,7 +124,7 @@ main {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   border-top-right-radius: 5px;
 }
-.learnMoreButton {
+.learnMoreButton-home {
   width: 130px;
   border: 3px solid #090953;
   margin-top: 40px;
@@ -142,15 +136,15 @@ main {
   border-radius: 5px;
   cursor: pointer;
 }
-.learnMoreButton:active {
+.learnMoreButton-home:active {
   transform: translateY(2px); /* Опустити кнопку на 5px */
   background-color: #ccc;
 }
-.button-search:active {
+.buttonSearch-home:active {
   transform: translateY(2px);
   background-color: #bac5e4;
 }
-.boxImg {
+.img-home {
   width: 50px;
   height: 50px;
   margin-top: 25px;
@@ -158,24 +152,25 @@ main {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   border-radius: 9px;
 }
-.boxImg:active {
+.img-home:active {
   transform: translateY(2px);
   border: 3px solid #090953;
 }
-.text-postalServices {
+.textPostal-home {
   font-weight: bold;
   text-align: center;
   color: #090953;
   font-size: 30px;
+  margin-bottom: 20px;
 }
-.text-postalServiceslitle {
+.textPostalLitle-home {
   font-weight: bold;
   text-align: center;
   color: #090953;
   font-size: 15px;
 }
 
-.carImg {
+.carImg-home {
   width: 100px;
   height: auto;
   border-radius: 6px;
@@ -189,15 +184,14 @@ main {
   cursor: pointer;
 }
 
-.postalServicesBloc:hover {
+.postalBloc:hover {
   background-color: #bac5e4;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
 }
-.postalServicesBloc {
+.postalBloc-home {
   height: 350px;
 }
-
-.search-block {
+.searchBlocking-home {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -208,12 +202,7 @@ main {
   background: radial-gradient(circle, #edf9ff 0%, #edf9ff 50%, #ffffff 100%);
   border-radius: 20px;
 }
-
-.text-postalServices {
-  margin-bottom: 20px;
-}
-
-.button-communication {
+.buttonCommunication-home {
   padding: 10px 20px;
   margin-right: 40px;
   border: 3px solid #090953;
@@ -224,7 +213,7 @@ main {
   box-shadow: 0 5px 10px rgba(0.1, 0.1, 0.1, 0.1);
   border-radius: 5px;
 }
-.button-communication:hover {
+.buttonCommunication-home:hover {
   background-color: #bac5e4;
   border: 3px solid #090953;
 }
@@ -233,12 +222,12 @@ main {
   color: #fefefe;
   font-size: 48px;
 }
-.searchIndex {
+.searchIndex-home {
   margin-top: 20px;
   height: 30px;
   width: 230px;
 }
-.button-index {
+.buttonIndex-home {
   height: 35px;
   width: 70px;
   background-color: #bac5e4;
@@ -246,33 +235,34 @@ main {
   border: 1px solid #ffffff;
   border-radius: 3px;
 }
-.button-index:hover {
+.buttonIndex-home:hover {
   margin-top: 2px;
   background-color: #90acf9;
 }
-.socImg {
+.socImg-home {
   width: 160px;
   height: 50px;
   margin-left: 50px;
 }
-.blokabout {
+.blokabout-home {
   padding: 10px;
   flex: 1;
   text-align: center;
 }
-.conteinerAbout {
+.conteinerAbout-home {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
-.previewImg {
+.previewImg-home {
   width: 60px;
   height: 50px;
   margin-left: 70px;
   filter: grayscale(100%);
 }
-.postAnim {
+.postAnim-home {
   background-color: #bac5e4a1;
-  height: 25px;
+  height: 35px;
+  padding-top: 0.5px;
 }

@@ -1,4 +1,4 @@
-.background {
+.background-registration {
   height: 100%;
   margin: 0;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
   background-color: #edf9ff;
 }
-.containerRegistration {
+.container-registration {
   width: 210mm;
   height: 172mm;
   background-color: white;
@@ -14,20 +14,20 @@
   padding: 20px;
   box-sizing: border-box;
 }
-.registrationCaption {
+.caption-registration {
   margin-left: 30px;
   color: #090953;
 }
-.form-group {
+.formGroup-registration {
   margin-bottom: 15px;
 }
-.inputRegistration {
+.input-registration {
   margin-left: 10px;
   border-radius: #090953;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   border: 3px solid #090953;
 }
-.buttonRegistration {
+.button-registration {
   height: 30px;
   margin-left: 10px;
   border-radius: #090953;
@@ -35,24 +35,4 @@
   border: 3px solid #090953;
   color: #090953;
   border-radius: 5px;
-}
-.buttonRegistrationUp {
-  margin-left: 30px;
-  color: #090953;
-  background-color: #edf9ff;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  border: 3px solid #090953;
-  color: #090953;
-  border-radius: 5px;
-
-  height: 40px;
-  width: 150px;
-  font-weight: bold;
-}
-.returnRegistration {
-  margin-right: 10px;
-  color: #edf9ff;
-}
-.returnRegistration:hover {
-  color: #e82a2a;
 }

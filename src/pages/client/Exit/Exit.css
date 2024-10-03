@@ -4,15 +4,14 @@ body {
   margin: 0;
 }
 
-.backgroundExit {
+.background-exit {
   display: flex;
   justify-content: center;
-
   background-color: #edf9ff;
   height: 100vh;
 }
 
-.containerExit {
+.container-exit {
   width: 210mm; /* Ширина формату A4 */
   height: 350px;
   background-color: white;
@@ -25,35 +24,22 @@ body {
   justify-content: center;
 }
 
-.forgotPassword {
+.forgotPassword-exit {
   font-size: 15px;
   font-style: italic;
   cursor: pointer;
 }
 
-.forgotPassword:hover {
+.forgotPassword-exit:hover {
   text-decoration: underline;
   color: #000000;
 }
 
-.conteinetButton {
+.conteinetButton-exit {
   text-align: center;
 }
 
-.returnExit {
-  color: blue;
-  text-align: center;
-}
-
-.returnRegistration {
-  color: #090953;
-  font-size: 15px;
-  text-decoration: underline;
-  font-style: italic;
-  cursor: pointer;
-}
-
-.modal {
+.modal-exit {
   display: block;
   position: fixed;
   z-index: 1;
@@ -65,7 +51,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.modal-content {
+.modalContent-exit {
   background-color: #fefefe;
   margin: 15% auto;
   padding: 20px;
@@ -74,26 +60,26 @@ body {
   max-width: 500px;
 }
 
-.close {
+.close-exit {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close-exit:hover,
+.close-exit:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
-.email {
+.email-exit {
   margin-left: 10px;
   border-radius: #090953;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   border: 3px solid #090953;
 }
-.buttonEmail {
+.buttonEmail-exit {
   height: 30px;
   margin-left: 10px;
   border-radius: #090953;
@@ -101,4 +87,19 @@ body {
   border: 3px solid #090953;
   color: #090953;
   border-radius: 5px;
+}
+.buttonUp-exit {
+  margin-left: 30px;
+  color: #090953;
+  background-color: #edf9ff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border: 3px solid #090953;
+  color: #090953;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  font-weight: bold;
+}
+.formGroup-exit {
+  margin-top: 10px;
 }

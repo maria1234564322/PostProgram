@@ -1,4 +1,4 @@
-.containerDelivery {
+.mainContainer-deliveryDepartment {
   width: 210mm;
   height: auto;
   background-color: white;
@@ -6,12 +6,12 @@
   padding: 20px;
   box-sizing: border-box;
 }
-.containerDeliveryDepartment {
+.container-deliveryDepartment {
   display: flex;
   justify-content: space-around;
 }
 
-.blockDeliveryDepartment {
+.block-deliveryDepartment {
   text-align: center;
   padding: 20px;
   margin: 5px;
@@ -19,7 +19,19 @@
   border-radius: 5px;
   width: 30%;
 }
-.department {
+.img-deliveryDepartment {
   width: 150px;
   height: 150px;
+}
+.text-deliveryDepartment {
+  font-weight: bold;
+  text-align: center;
+  color: #090953;
+  font-size: 20px;
+}
+.bigText-deliveryDepartment {
+  font-weight: bold;
+  text-align: center;
+  color: #090953;
+  font-size: 30px;
 }
