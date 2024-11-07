@@ -1,0 +1,25 @@
+.containerOrdersPage {
+  width: 210mm;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  box-sizing: border-box;
+}
+.containerCardcontainerOrdersPage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  max-width: 100%;
+  width: 745px;
+  margin: 0 auto;
+}
+.card-ordersPage {
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 50px;
+  position: relative;
+  border: 2px solid #090953;
+}

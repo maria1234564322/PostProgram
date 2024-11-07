@@ -40,3 +40,11 @@
   font-size: 15px;
   font-style: italic;
 }
+.containerAactions {
+  width: 210mm;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  box-sizing: border-box;
+}

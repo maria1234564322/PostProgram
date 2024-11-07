@@ -1,94 +1,88 @@
 import React from 'react';
+import './CreateShipment.css';
 
 const ParcelShipment = () => {
   return (
     <>
-      <h2 className="h-calculationCreateShipment">Оціночна вартість </h2>
-      <input placeholder="Грн" className="estimatedValue" />
-      <h2 className="h-calculationCreateShipment">Промокод </h2>
+      <h2 className="h-createShipment">Оціночна вартість </h2>
+      <input placeholder="Грн" className="estimatedValue-createShipment" />
+      <h2 className="h-createShipment">Промокод </h2>
       <div>
         <input
           placeholder="Введіть промокод"
-          className="estimatedValue-calculationCreateShipment"
+          className="estimatedValue-createShipment"
         />
       </div>
-      <h2 className="h-calculationCreateShipment"> Опис </h2>
+
+      <h2 className="h-createShipment"> Опис </h2>
       <input
         placeholder="Введіть назву чи опис товару"
-        className="estimatedValueМах-calculationCreateShipment"
+        className="estimatedValue-createShipment"
       />
-      <h2 className="h-calculationCreateShipment">Вага посилки </h2>
-      <input
-        placeholder="кг"
-        className="estimatedValue-calculationCreateShipment"
-      />
-      <h2 className="h-calculationCreateShipment">Габарити </h2>
-      <div className="dimensions-calculationCreateShipment">
-        <input
-          placeholder="Висота"
-          className="estimatedValue2-calculationCreateShipment"
-        />
+
+      <h2 className="h-createShipment">Вага посилки </h2>
+      <input placeholder="кг" className="estimatedValue-createShipment" />
+      <h2 className="h-createShipment">Габарити </h2>
+
+      <div className="dimensions-createShipment">
+        <input placeholder="Висота" className="estimatedValue-createShipment" />
         <input
           placeholder="Довжина"
-          className="estimatedValue2-calculationCreateShipment"
+          className="estimatedValue-createShipment"
         />
-        <input
-          placeholder="Ширина"
-          className="estimatedValue2-calculationCreateShipment"
-        />
+        <input placeholder="Ширина" className="estimatedValue-createShipment" />
       </div>
-      <div className="placeDispatch-calculationCreateShipment">
-        <h2 className="h-calculationCreateShipment">
+
+      <div className="placeDispatch-createShipment">
+        <h2 className="h-createShipment">
           Грошовий переказ при отриманні посилки
         </h2>
-        <input
-          placeholder="грн"
-          className="estimatedValue-calculationCreateShipment"
-        />
+        <input placeholder="грн" className="estimatedValue-createShipment" />
       </div>
-      <h2 className="h-calculationCreateShipment">Місце відправки</h2>
-      <div className="shippingOptions-calculationCreateShipment">
-        <label className="customRadio-calculationCreateShipment">
+
+      <h2 className="h-createShipment">Місце відправки</h2>
+
+      <div className="shippingOptions-createShipment">
+        <label className="customRadio-createShipment">
           <input type="radio" name="dispatchLocation" value="відділення" />
-          <span className="customRadioBtn-calculationCreateShipment"></span>
+          <span className="customRadioBtn-createShipment"></span>
           Відділення
         </label>
-        <label className="customRadio-calculationCreateShipment">
+        <label className="customRadio-createShipment">
           <input type="radio" name="dispatchLocation" value="адреса" />
-          <span className="customRadioBtn-calculationCreateShipment"></span>
+          <span className="customRadioBtn-createShipment"></span>
           Адреса
         </label>
-        <label className="customRadio-calculationCreateShipment">
+        <label className="customRadio-createShipment">
           <input type="radio" name="dispatchLocation" value="поштомат" />
-          <span className="customRadioBtn"></span>
+          <span className="customRadioBtn-createShipment"></span>
           Поштомат
         </label>
       </div>
 
-      <h2 className="h-calculationCreateShipment">Місце одерження</h2>
-      <div className="shippingOptions-calculationCreateShipment">
-        <label className="customRadio-calculationCreateShipment">
+      <h2 className="h-createShipment">Місце одерження</h2>
+      <div className="shippingOptions-createShipment">
+        <label className="customRadio-createShipment">
           <input type="radio" name="receivingLocation" value="відділення" />
-          <span className="customRadioBtn-calculationCreateShipment"></span>
+          <span className="customRadioBtn-createShipment"></span>
           Відділення
         </label>
-        <label className="customRadio-calculationCreateShipment">
+        <label className="customRadio-createShipment">
           <input type="radio" name="receivingLocation" value="адреса" />
-          <span className="customRadioBtn-calculationCreateShipment"></span>
+          <span className="customRadioBtn-createShipment"></span>
           Адреса
         </label>
-        <label className="customRadio-calculationCreateShipment">
+        <label className="customRadio-createShipment">
           <input
             type="radio"
-            name="receivingLocation-calculationCreateShipment"
+            name="receivingLocation-createShipment"
             value="поштомат"
           />
-          <span className="customRadioBtn-calculationCreateShipment"></span>
+          <span className="customRadioBtn-createShipment"></span>
           Поштомат
         </label>
-      </div>
-      <div className="placeDispatch-calculationCreateShipment">
-        <button className="buttonCreateShipmen-calculationCreateShipment">
+
+        <button className="buttonConfirm-createShipmen">
           Підтвердити дані
         </button>
       </div>

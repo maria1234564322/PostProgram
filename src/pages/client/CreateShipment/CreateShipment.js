@@ -15,16 +15,16 @@ const CreateShipment = () => {
   };
 
   return (
-    <div>
+    <>
       <div className="background">
-        <div className="containerCreateShipment">
+        <div className="container-createShipment">
           <div>
-            <h1 className="placeDispatch">Створити відправлення</h1>
+            <h1 className="h1-createShipment">Створити відправлення</h1>
 
-            <div className="top">
+            <div className="top-createShipment">
               <h2>Вид посилки</h2>
             </div>
-            <div className="bottom">
+            <div className="buttom-createShipment">
               <div
                 className={`left ${
                   selectedButton === selectedState.parcel
@@ -53,7 +53,7 @@ const CreateShipment = () => {
           {selectedButton === selectedState.document && <DocumentShipment />}
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

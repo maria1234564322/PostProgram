@@ -18,14 +18,14 @@ const CalculationCreateShipment = () => {
   return (
     <>
       <div className="background">
-        <div className="containerCreateShipment">
+        <div className="container-calculationCreateShipmen">
           <div>
             <div>
-              <h1 className="placeDispatch">
+              <h1 className="h1-calculationCreateShipmen">
                 Розрахувати вартість відправлення
               </h1>
             </div>
-            <div className="top">
+            <div className="top-calculationCreateShipmen">
               <h2>Вид посилки</h2>
             </div>
             <div className="bottom">
@@ -57,13 +57,6 @@ const CalculationCreateShipment = () => {
           ) : (
             <Documents />
           )}
-
-          <div className="placeDispatch">
-            <button className="buttonCreateShipmen">
-              {' '}
-              Розрахувати вартість
-            </button>
-          </div>
         </div>
       </div>
     </>

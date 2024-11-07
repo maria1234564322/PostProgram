@@ -1,0 +1,182 @@
+.top-createShipment {
+  height: 50%;
+  text-align: center;
+}
+
+.container-createShipment {
+  width: 210mm;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.buttom-createShipment {
+  height: 50%;
+  display: flex;
+  background-color: #edf9ff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.estimatedValue-createShipment {
+  width: 21%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #bac5e4;
+  border-radius: 4px;
+  margin-left: 4px;
+}
+
+.shippingOptions-createShipment {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.switchContainer-createShipment {
+  display: flex;
+  margin-top: 10px;
+}
+
+.switch-createShipment {
+  position: relative;
+  display: inline-block;
+  width: 60px; /* Ширина перемикача */
+  height: 34px; /* Висота перемикача */
+}
+
+.switch-createShipment input {
+  opacity: 0; /* Сховати стандартний чекбокс */
+  width: 0;
+  height: 0;
+}
+
+.slider-createShipment {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc; /* Колір фону для перемикача */
+  transition: 0.4s; /* Плавний перехід */
+  border-radius: 34px; /* Закруглені кути */
+}
+.switchConteiner-createShipment {
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+.slider-createShipment:before {
+  position: absolute;
+  content: '';
+  height: 26px; /* Висота мікросхеми */
+  width: 26px; /* Ширина мікросхеми */
+  left: 4px; /* Відступ зліва */
+  bottom: 4px; /* Відступ знизу */
+  background-color: white; /* Колір мікросхеми */
+  border-radius: 50%; /* Кругла форма */
+  transition: 0.4s; /* Плавний перехід */
+}
+
+/* Стиль для чекбокса, коли він активний */
+input:checked + .slider-createShipment {
+  background-color: #487ca6; /* Колір фону при активації */
+}
+
+input:checked + .slider-createShipment:before {
+  transform: translateX(26px); /* Перемістити мікросхему вправо */
+}
+
+.customRadio-createShipment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px; /* Зменшений відступ знизу */
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin-top: 8px; /* Зменшений відступ зверху */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.customRadio-createShipment input {
+  display: none;
+}
+
+.customRadioBtn-createShipment {
+  height: 18px;
+  width: 18px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  margin-right: 8px;
+  position: relative;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.customRadio-createShipment:hover {
+  color: #487ca6;
+}
+
+.customRadio-createShipment input:checked + .customRadioBtn-createShipment {
+  border-color: #487ca6;
+  background-color: #487ca6;
+}
+
+.customRadioBtn-createShipment::after {
+  content: '';
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.customRadio-createShipment
+  input:checked
+  + .customRadioBtn-createShipment::after {
+  opacity: 1;
+}
+
+.dimensions-createShipmen {
+  display: flex;
+  height: 40px;
+}
+
+.h-createShipment {
+  margin-bottom: 0px;
+}
+
+.h1-createShipment {
+  color: #090953;
+  text-align: center;
+}
+.buttonConfirm-createShipmen {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background-color: #487ca6;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.buttonConfirm-createShipmen:hover {
+  background-color: #35698a;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2px;
+}

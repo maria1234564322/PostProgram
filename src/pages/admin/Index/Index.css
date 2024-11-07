@@ -1,0 +1,46 @@
+.containerCardIndex {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.indexTh {
+  color: #333;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+}
+
+.faqQuestionIndex {
+  text-align: left;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faqAnswerIndex {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+}
+.textWorkIndex {
+  text-align: center;
+  color: #090953;
+}
+.saveTableIndex {
+  padding: 10px;
+}
+.deleteIndex {
+  padding-top: 20px;
+}
+.findIndex {
+  margin-top: 10px;
+}
